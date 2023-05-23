@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts"
+, "app/about/page.js", "app/coaching/gmat/page.js", "app/coaching/gre/page.js", "app/coaching/ielts/page.js", "app/coaching/tofel/page.js", "app/components/about/Content.js", "app/components/Coaching/Gmat/Content.js", "app/components/Coaching/Gmat/Fullpage.js", "app/components/Coaching/Gmat/Table1.js", "app/components/Coaching/Gre/Content.js", "app/components/Coaching/Gre/Fullpage.js", "app/components/Coaching/Gre/Table1.js", "app/components/Coaching/Gre/Table2.js", "app/components/Coaching/Ielts/Content.js", "app/components/Coaching/Ielts/Content2.js", "app/components/Coaching/Ielts/Fullpage.js", "app/components/Coaching/Ielts/Table1.js", "app/components/Coaching/Tofel/Content.js", "app/components/Coaching/Tofel/Content2.js", "app/components/Coaching/Tofel/Fullpage.js", "app/components/Coaching/Tofel/Table1.js", "app/components/Coaching/Whyp2p.js", "app/components/Countries/Australia/Fullpage.js", "app/components/Countries/Australia/Slider.js", "app/components/Countries/Australia/Tab.js", "app/components/Countries/Australia/Topunivercity.js", "app/components/Countries/Belgium/Fullpage.js", "app/components/Countries/Canada/Fullpage.js", "app/components/Countries/Finland/Fullpage.js", "app/components/Countries/France/Fullpage.js", "app/components/Countries/Germany/Fullpage.js", "app/components/Countries/Hungary/Fullpage.js", "app/components/Countries/Italy/Fullpage.js", "app/components/Countries/Latvia/Fullpage.js", "app/components/Countries/Lithuania/Fullpage.js", "app/components/Countries/Malta/Fullpage.js", "app/components/Countries/Netherland/Fullpage.js", "app/components/Countries/Norway/Fullpage.js", "app/components/Countries/Nz/Fullpage.js", "app/components/Countries/Poland/Fullpage.js", "app/components/Countries/Sweden/Fullpage.js", "app/components/Countries/Switzerland/Fullpage.js", "app/components/Countries/Uk/Fullpage.js", "app/components/Countries/Belgium/Slider.js", "app/components/Countries/Canada/Slider.js", "app/components/Countries/Finland/Slider.js", "app/components/Countries/France/Slider.js", "app/components/Countries/Germany/Slider.js", "app/components/Countries/Hungary/Slider.js", "app/components/Countries/Italy/Slider.js", "app/components/Countries/Latvia/Slider.js", "app/components/Countries/Lithuania/Slider.js", "app/components/Countries/Malta/Slider.js", "app/components/Countries/Netherland/Slider.js", "app/components/Countries/Norway/Slider.js", "app/components/Countries/Nz/Slider.js", "app/components/Countries/Poland/Slider.js", "app/components/Countries/Sweden/Slider.js", "app/components/Countries/Switzerland/Slider.js", "app/components/Countries/Uk/Slider.js", "app/components/Countries/Usa/Slider.js", "app/components/Countries/Belgium/Tab.js", "app/components/Countries/Canada/Tab.js", "app/components/Countries/Finland/Tab.js", "app/components/Countries/France/Tab.js", "app/components/Countries/Germany/Tab.js", "app/components/Countries/Hungary/Tab.js", "app/components/Countries/Italy/Tab.js", "app/components/Countries/Latvia/Tab.js", "app/components/Countries/Lithuania/Tab.js", "app/components/Countries/Malta/Tab.js", "app/components/Countries/Netherland/Tab.js", "app/components/Countries/Norway/Tab.js", "app/components/Countries/Nz/Tab.js", "app/components/Countries/Poland/Tab.js", "app/components/Countries/Sweden/Tab.js", "app/components/Countries/Switzerland/Tab.js", "app/components/Countries/Uk/Tab.js", "app/components/Countries/Usa/Tab.js", "app/components/Countries/Belgium/Topunivercity.js", "app/components/Countries/Canada/Topunivercity.js", "app/components/Countries/Finland/Topunivercity.js", "app/components/Countries/France/Topunivercity.js", "app/components/Countries/Germany/Topunivercity.js", "app/components/Countries/Hungary/Topunivercity.js", "app/components/Countries/Italy/Topunivercity.js", "app/components/Countries/Latvia/Topunivercity.js", "app/components/Countries/Lithuania/Topunivercity.js", "app/components/Countries/Malta/Topunivercity.js", "app/components/Countries/Netherland/Topunivercity.js", "app/components/Countries/Norway/Topunivercity.js", "app/components/Countries/Nz/Topunivercity.js", "app/components/Countries/Poland/Topunivercity.js", "app/components/Countries/Sweden/Topunivercity.js", "app/components/Countries/Switzerland/Topunivercity.js", "app/components/Countries/Uk/Topunivercity.js", "app/components/Countries/Usa/Tables/Table1.js", "app/components/Countries/Usa/Tables/Table2.js", "app/components/Countries/Usa/Tables/Table3.js", "app/components/Countries/Usa/Tables/Table4.js", "app/components/Countries/Usa/Tables/Table5.js", "app/components/Countries/Usa/Tables/Table6.js", "app/components/Countries/Usa/Tables/Table7.js", "app/components/Countries/Usa/Fullpage.js", "app/components/Countries/Usa/Topunivercity.js", "app/components/Countries/Sidebar.js", "app/components/Countries/Sidebar1.js", "app/components/Home/Coaching.js", "app/components/Home/Mbbs.js", "app/components/Home/Studyabroad.js", "app/components/Home/Studyeurope.js", "app/components/Mbbs/Arminia.js", "app/components/Mbbs/Europe.js", "app/components/Mbbs/Georgia.js", "app/components/Mbbs/kyrgyzstan.js", "app/components/Mbbs/Mbbsrussia.js", "app/components/Mbbs/Ukrain.js", "app/components/Services/Addmission.js", "app/components/Services/Departure.js", "app/components/Services/Select_uni.js", "app/components/Content.js", "app/components/Flagslider.js", "app/components/Footer.js", "app/components/Header.js", "app/components/Navbar.js", "app/components/Slider.js", "app/components/Socialmedia.js", "app/components/Testmonial.js", "app/countries/australia/page.js", "app/countries/belgium/page.js", "app/countries/canada/page.js", "app/countries/finland/page.js", "app/countries/france/page.js", "app/countries/germany/page.js", "app/countries/hungary/page.js", "app/countries/italy/page.js", "app/countries/latvia/page.js", "app/countries/lithuania/page.js", "app/countries/malta/page.js", "app/countries/netherland/page.js", "app/countries/norway/page.js", "app/countries/nz/page.js", "app/countries/poland/page.js", "app/countries/sweden/page.js", "app/countries/switzerland/page.js", "app/countries/uk/page.js", "app/countries/usa/page.js", "app/mbbs/arminia/page.js", "app/mbbs/europe/page.js", "app/mbbs/georgia/page.js", "app/mbbs/kyrgyzstan/page.js", "app/mbbs/russia/page.js", "app/mbbs/ukrain/page.js", "app/services/page.js", "app/page.js"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
